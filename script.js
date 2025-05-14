@@ -17,12 +17,18 @@ class Animal {
 }
 
 class Dog extends Animal {
+	Constructor(species){
+		super(species);
+	}
 	bark(){
 		return "woof";
 	}
 }
 
 class Cat extends Animal {
+	Constructor(species){
+		super(species);
+	}
 	purr(){
 		return "purr";
 	}
